@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #21b66f;
+}
+
+.chronometre {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    width: 400px;
+    text-align: center;
+}
+
+.watch-dial {
+    margin: auto;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.watch-dial span {
+    padding: 5px;
+}
+
+.controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #1d9c5e;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 30%;
+    border: none;
+    letter-spacing: 2px;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(0.9);
+}
